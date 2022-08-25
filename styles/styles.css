@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+ 
 }
 
 @font-face {
@@ -12,6 +13,7 @@
 
   body {
     background-color: #f3f4f3;
+    box-sizing: border-box;
   }
 
 
@@ -77,9 +79,11 @@ h1 {
     padding: 50px;
     position: relative;
     width: 80%;
-    margin: 70px auto;
+    margin: 80px auto;
     border-radius: 5px;
 }
+
+
 
 .about-text {
     color: #4D5157;
@@ -89,7 +93,20 @@ h1 {
     top: 50%;
     flex-direction: column;  
     margin-top: 40px;
+    
+  
 }
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sapi {
+    width: 85%;
+}
+
+
 
 .about-text > h2, h3, p {
     width: 100%;
@@ -177,6 +194,17 @@ h1 {
     color: rgb(163, 163, 163);
 }
 
+
+.footer-copyright>p {
+    font-size: 12px;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    text-align: left;
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     .about-text > h2, h3, p {
         width: 70%;
@@ -193,6 +221,10 @@ h1 {
     .about-text > h2, h3, p {
         width: 60%;
     }
+
+    .sapi {
+        width: 100%;
+    }
     
 }
 
@@ -203,6 +235,7 @@ h1 {
 
     .about-text {
         margin-top: 0px;
+        max-width: 780px;
     }
 
     .about-text > h2, h3, p {
