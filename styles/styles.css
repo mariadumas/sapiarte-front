@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
  
 }
 
@@ -13,7 +14,7 @@
 
   body {
     background-color: #f3f4f3;
-    box-sizing: border-box;
+
   }
 
 
@@ -168,6 +169,8 @@ h1 {
     width: 100%;
 }
 
+
+
 .contacto-redes {
     font-weight: bold;
     text-align: center;
@@ -177,6 +180,7 @@ h1 {
     font-size: 20px;
     text-decoration: none;
     color: whitesmoke;
+
 
 }
 
